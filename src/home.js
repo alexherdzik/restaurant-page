@@ -1,15 +1,10 @@
-const createParagraph = (text) => {
-    const paragraph = document.createElement('p');
-    paragraph.textContent = text;
-
-    return paragraph;
-}
+import {createParagraph} from './utilities';
 
 const createHome = () => {
     const home = document.createElement('div');
     home.classList.add('container');
 
-    home.appendChild(createParagraph('Elegance'));
+    home.appendChild(createParagraph('Home Content'));
 
     return home;
 }
@@ -20,4 +15,4 @@ const loadHome = () => {
     content.appendChild(createHome());
 }
 
-export default loadHome;
+export default loadHome
