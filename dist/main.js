@@ -1,1 +1,1 @@
-console.log("Hello me");
+(()=>{"use strict";(()=>{const t=document.getElementById("content");t.textContent="",t.appendChild((()=>{const t=document.createElement("div");return t.classList.add("container"),t.appendChild((t=>{const e=document.createElement("p");return e.textContent="Elegance",e})()),t})())})()})();
